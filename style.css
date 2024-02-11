@@ -134,7 +134,7 @@ transition: 0.4s ease-in-out
 
 .img-home {
   margin-right: 20px;
-  width: 580px;
+  width: 480px;
 }
 
 /*About section*/
@@ -145,8 +145,8 @@ transition: 0.4s ease-in-out
 }
 
 .about-us {
-  width: 80%;
-  height: 310px;
+  width: 100%;
+  height: 320px;
   background-color: #37b9b128;
   margin-top: 140px;
   border: rgba(233, 174, 140, 0.37) solid;
@@ -166,7 +166,7 @@ transition: 0.4s ease-in-out
 }
 
 .content-about {
-  padding: 20px 60px;
+  padding: 10px 38px;
 }
 
 .heading-about::after {
@@ -175,7 +175,7 @@ transition: 0.4s ease-in-out
   left: 0px;
   bottom: -8px;
   background-color: rgb(255, 129, 57);
-  width: 60px;
+  width: 46px;
   height: 2px;
 }
 
@@ -196,6 +196,7 @@ transition: 0.4s ease-in-out
   color: rgb(255, 129, 57);
   display: inline-block;
   font-weight: 600;
+  font-size: 11px;
   padding: 8px 22px;
   position: relative;
 }
@@ -233,8 +234,8 @@ transition: 0.4s ease-in-out
   height: 420px;
   width: 57%;
   position: absolute;
-  top: -1px;
-  right: -0.9px;
+  top: -50px;
+  right: 10px;
 }
 
 /* Product Section*/
@@ -259,7 +260,7 @@ transition: 0.4s ease-in-out
   left: 0px;
   bottom: -8px;
   background-color: rgb(255, 129, 57);
-  width: 60px;
+  width: 56px;
   height: 2px;
 }
 .card-product{
@@ -441,15 +442,14 @@ transition: 0.4s ease-in-out
   position: relative;
 
 }
-.heading-contact::after{
+/*.heading-contact::after{
   content: '';
   position: absolute;
   left: 0px;
   bottom: -8px;
-  background-color: #FF862D;
   width: 70px;
   height: 2px;
-}
+}*/
 .form-origin{
   width: 100%;
   height: 480px;
@@ -493,4 +493,41 @@ transition: 0.4s ease-in-out
   border: 1px solid #FFD0A8;
   color: #FFD0A8;
   text-transform: uppercase;
+}
+.content-contact{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 8px 18px;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading-contact{
+  color: #FF862D;
+  margin-bottom: 30px;
+  font-size: 42px;
+  text-transform: capitalize;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.heading-content span{
+  color: #FF862D;
+}
+.para-contact{
+  font-size: 15px;
+  line-height: 30px;
+  color: #FFD0A8;
+  margin: 16px 0px;
+}
+footer{
+  background-color: #37746c;
+  margin: 0px 0px !important;
+  height: 10vh;
+  margin-top: 30px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para-footer{
+  margin: 0px 0px;
 }
