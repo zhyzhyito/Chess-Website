@@ -109,8 +109,8 @@
         margin-top: 50px;
     }
     .about-us{
-        margin-top: 140px;
-        height: 80vh;
+        margin-top: 90px;
+        height: 98vh;
     }
     .about-us-container{
         padding-top: 15rem !important;
@@ -186,12 +186,31 @@
         padding: 11px;
     }
     .about-us{
-        margin-top: 260px;
+        margin-top: -5px;
         top: 60px;
         height: 40rem;
     }
     .product-category{
-        margin-top: 420px;
+        margin-top: -10px;
     }
-
+    .image-clients{
+        width: 100px;
+        height: 100px;
+        top: 30px;
+        left: 20px;
+        position: absolute;
+    }
+}
+@media (max-width: 512px){
+    .image-clients{
+        top: 30px;
+        left: -10px;
+        position: absolute;
+    }
+    .about-us{
+        margin-top: -30px;
+    }
+    .product-category{
+        margin-top: -20px;
+    }
 }
