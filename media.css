@@ -189,9 +189,13 @@
         margin-top: -5px;
         top: 60px;
         height: 40rem;
+        margin-left: -8px;
+        margin: auto;
     }
     .product-category{
         margin-top: -10px;
+        margin: auto;
+        object-fit: contain;
     }
     .image-clients{
         width: 100px;
@@ -200,6 +204,31 @@
         left: 20px;
         position: absolute;
     }
+    .testimonial{
+        margin: auto;
+    }
+    .contact-form{
+        margin: auto;
+        object-fit: contain;
+        height: auto;
+        width: auto;
+    }
+    .heading-contact{
+        font-size: 30px;
+    }
+    .form-origin{
+        width: auto;
+        height: auto;
+    }
+    .form-control{
+        margin: auto;
+
+    }
+    .container-clients{
+        object-fit: contain;
+    }
+    
+    
 }
 @media (max-width: 512px){
     .image-clients{
@@ -209,8 +238,10 @@
     }
     .about-us{
         margin-top: -30px;
+        margin: auto;
     }
     .product-category{
         margin-top: -20px;
+        margin: auto;
     }
 }
