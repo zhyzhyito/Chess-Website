@@ -316,7 +316,9 @@
 }
 @media screen and (max-width: 375px){
     .image-clients{
-        left: -25%;
+        left: -10%;
+        width: 70px;
+        height: 70px;
     }
     .content-home2{
         margin-left: 10px;
@@ -342,5 +344,34 @@
         font-size: 30px;
 
     }
-
+}
+@media screen and (max-width: 295px){
+    .image-clients{
+        left: -15%;
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width: 246px){
+    .image-clients{
+        left: -5%;
+        width: 55px;
+        height: 55px;
+    }
+}
+@media screen and (max-width: 285px){
+    .heading-product{
+        font-size: 25px;
+        justify-content: center;
+        text-align: center;
+    }
+    .heading-product::after{
+        width: auto;
+    }
+}
+@media screen and (max-width: 253px){
+    .about-us{
+        margin-top: 100px;
+        top: 100px;
+    }
 }
