@@ -22,6 +22,11 @@
     }
 
 }
+@media screen and (max-width: 1399px){
+    .card-product{
+        max-width: auto;
+    }
+}
 @media screen and (max-width: 992px){
     .navbar{
         background-color: white;
@@ -45,6 +50,7 @@
     .img-home{
         width: 420px;
         margin-right: 0px;
+        margin-left: 10px;
     }
     .home-heading{
         font-size: 40px;
@@ -52,7 +58,7 @@
         line-height: 74px;
     }
     .box-container2{
-        padding-left: 90px;
+        padding-left: 10px;
     }
     .img-about{
         height: 80%;
@@ -113,18 +119,36 @@
         margin-right: -135px;
         top: -50px;
     }
+    .navbar{
+        position: sticky
+    }
+}
+@media screen and (max-width: 991px){
+
+    .img-home{
+        width: 420px;
+        margin-left: -100px;
+    }
+    .box-container2{
+        margin-left: 50px;
+    }
 }
 @media screen and (max-width: 768px){
     .box-container2{
         height: auto;
+    }
+    .content-home{
+        align-items: center;
+        text-align: center;
     }
     .box-container{
         display: flex;
         justify-content: center;
     }
     .img-home{
-        width: 500px;
-        margin-top: 50px;
+        width: 400px;
+        margin-left: 70px;
+        margin-top: 60px;
     }
     .about-us{
         margin-top: 90px;
@@ -136,12 +160,13 @@
         height: auto;
     }
     .home-heading{
-        font-size: 46px;
+        font-size: 36px;
         line-height: 82px;
         text-align: center;
     }
     .box-container2{
         padding-left: 0px;
+        margin-left: 20px;
     }
     .para-home{
         text-align: center;
@@ -313,6 +338,9 @@
         font-size: 30px;
 
     }
+    .img-home{
+        margin-right: auto;
+    }
 }
 @media screen and (max-width: 375px){
     .image-clients{
@@ -321,15 +349,17 @@
         height: 70px;
     }
     .content-home2{
-        margin-left: 10px;
+        margin-left: -10px;
+        align-items: center;
+        text-align: center;
     }
     .img-home{
-        margin-right: 10px;
+        margin-left: 20px;
         height: 25vh;
-        width: 50vh;
+        width: 35vh;
     }
     .box-container2{
-        margin-right: 10px;
+        margin-right: 0px;
     }
     .button-left{
         margin-left: -135px;
